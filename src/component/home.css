@@ -127,23 +127,27 @@
     margin-left: 100px;
     margin-right: 100px;
 }
+.about-inside span{
+    color: rgb(15, 216, 122);
+}
 .about-outside-left{
     width: 50%;
     padding: 20px;
     display: flex;
     flex-direction: column;
-    text-align: start;
     gap: 50px;
-    border: 2px solid aqua;
+
+    
 }
 .about-outside-right{
     width: 50%;
     padding: 20px;
     display: flex;
     flex-direction: column;
-    
+    justify-content: left;
     gap: 50px;
-    border: 2px solid aqua;
+ 
+
 }
 .about-outside-left img{
     width: 600px;
@@ -155,11 +159,11 @@
 }
 .about-outside-right h3{
     color: rgb(245, 239, 239);
-    font-size: 40px;
+    font-size: 25px;
 }
 .about-outside-left h3{
     color: rgb(245, 239, 239);
-    font-size: 20px;
+    font-size: 25px;
    
 }
 .about-outside-left span{
@@ -173,4 +177,56 @@
 }
 .about-outside-left h4{
     line-height: 1.5;
+}
+.timeline{
+    background-color: black;
+    height: auto;
+    padding: 20px;
+    gap: 30px;
+}
+.timeline h1{
+    color: rgb(245, 239, 239);
+    font-size: 60px;
+    margin: 100px;
+}
+
+.timeline-left{
+    width: 40%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgb(4, 87, 33) 0%, rgb(130, 224, 187) 100%);
+    border-radius: 20px;
+    height: 150px;
+    margin-left: 100px;
+    animation: fadeInAnimation ease 2.5s;
+    animation-iteration-count: 1;
+    animation-fill-mode: both;
+
+}
+.timeline-right{
+    width: 40%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    margin-left: 55%;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgb(9, 121, 48) 0%, rgb(130, 224, 187) 100%);
+    border-radius: 20px;
+    height: 150px;
+    animation: fadeInAnimation ease 2.5s;
+    animation-iteration-count: 1;
+    animation-fill-mode: both;
+}
+@keyframes fadeInAnimation
+{
+   0%
+   { 
+   opacity: 0;
+   }
+
+   100% 
+   {
+   opacity: 1;
+   }
 }

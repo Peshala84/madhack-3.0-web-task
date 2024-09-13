@@ -49,7 +49,7 @@ const home = () => {
       {/* about */}
       <div className='about'>
         <div className='about-inside'>
-            <h1>Introduction MADHACK 3.0</h1>
+            <h1>Introduction <span>MADHACK 3.0</span></h1>
             <h3>Unleashing and Creativity in Mobile App Development</h3>
 
             <div className='about-outside'>
@@ -79,6 +79,65 @@ const home = () => {
         </div>
 
       </div>
+          
+        {/* timeline */}
+        <div className='timeline'>
+            <h1>Timeline</h1>
+            <div className='timeline-left'>
+                <h2>Awareness Session</h2>
+                <h3>Virtual</h3>
+                <br />
+                <h3>Jan 6th</h3>
+
+            </div>
+            <div className='timeline-right'>
+                <h2>Mobile App Designing Session</h2>
+                <h3>Virtual</h3>
+                <br />
+                <h3>Jan 10th</h3>
+
+            </div>
+            <div className='timeline-left'>
+                <h2>Workshop - Flutter Session - Basics</h2>
+                <h3>Virtual</h3>
+                <br />
+                <h3>Feb 4th</h3>
+
+            </div>
+            <div className='timeline-right'>
+                <h2>Workshop - Flutter Session - Advanced</h2>
+                <h3>Virtual</h3>
+                <br />
+                <h3>Feb 18th</h3>
+             </div>
+             <div className='timeline-left'>
+                <h2>Open Initial Round Submissions</h2>
+                <h3>March 4th</h3>
+             </div>
+            <div className='timeline-right'>
+                <h2>Close Initial Round Submissions</h2>
+                <h3>March 16th</h3>
+            </div>
+            <div className='timeline-left'>
+                 <h2>Announcement of Finalists</h2>
+                 <h3>Virtual</h3>
+                 <br />
+                 <h3>Postponed</h3>
+            </div>
+            <div className='timeline-right'> 
+                <h2>Final Hackathon</h2>
+                <h3>Onsite</h3>
+                <br />
+                <h3>Postponed</h3>
+            </div>
+            <div className='timeline-left'>
+                <h2>Final Hackathon & Award Ceremony</h2>
+                <h3>Onsite</h3>
+                <br />
+                <h3>Postponed</h3>
+            </div>
+
+        </div>
    </>
   )
 }
