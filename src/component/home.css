@@ -341,7 +341,7 @@
 /* General Mobile Styles */
 @media (max-width: 768px) {
     .navbar {
-        flex-direction: column;
+        flex-direction: row;
         padding: 20px;
         position: relative;
     }
@@ -350,12 +350,12 @@
         height: auto;
     }
     .navbar-outer nav ul {
-        flex-direction: column;
-        gap: 20px;
+        flex-direction: row;
+        gap: 10px;
         margin-right: 0;
     }
     .navbar-outer nav ul li a {
-        font-size: 14px;
+        font-size: 8px;
         padding: 8px;
     }
 
@@ -393,6 +393,7 @@
         width: 100%;
         padding: 10px;
     }
+    
 
     .timeline h1 {
         font-size: 30px;
@@ -402,6 +403,7 @@
         width: 100%;
         margin-left: 0;
         padding: 15px;
+        margin: 10px;
     }
 
     .prizes h1 {
@@ -445,4 +447,6 @@
     .footer-left img {
         width: 60%;
     }
+    
 }
+

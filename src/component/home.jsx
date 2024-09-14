@@ -48,7 +48,6 @@ const home = () => {
         },
     ];
 
-
   return (
    <>
       {/* navbar */}
@@ -79,6 +78,7 @@ const home = () => {
 
         </div>
       </div>
+      
 
       {/* home */}
 
