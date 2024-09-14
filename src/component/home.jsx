@@ -60,19 +60,19 @@ const home = () => {
             <nav>
                 <ul>
                 <li>
-                    <a href="/home">HOME</a>
+                    <a href="#home">HOME</a>
                 </li>
                 <li>
-                    <a href="/about">ABOUT</a>
+                    <a href="#about">ABOUT</a>
                 </li>
                 <li>
-                    <a href="/timeline">TIMELINE</a>
+                    <a href="#timeline">TIMELINE</a>
                 </li>
                 <li>
-                    <a href="/prizes">PRIZES</a>
+                    <a href="#prizes">PRIZES</a>
                 </li>
                 <li>
-                    <a href="/faq">FAQ</a>
+                    <a href="#faq">FAQ</a>
                 </li>
                 </ul>
             </nav>
@@ -91,7 +91,7 @@ const home = () => {
       </div>
 
       {/* about */}
-      <div className='about' id='/about'>
+      <div className='about' id='about'>
         <div className='about-inside'>
             <h1>Introduction <span>MADHACK 3.0</span></h1>
             <h3>Unleashing and Creativity in Mobile App Development</h3>
