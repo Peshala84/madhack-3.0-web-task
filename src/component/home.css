@@ -152,10 +152,18 @@
 .about-outside-left img{
     width: 600px;
     height: 400px;
+    transition: 1s;
+}
+.about-outside-left img:hover{
+    transform: skewX(10deg);
 }
 .about-outside-right img{
     width: 600px;
     height: 400px;
+    transition: 1s;
+}
+.about-outside-right img:hover{
+    transform: skewX(-10deg);
 }
 .about-outside-right h3{
     color: rgb(245, 239, 239);
@@ -199,7 +207,11 @@
     border-radius: 20px;
     height: 150px;
     margin-left: 100px;
+    transition: 1s;
     
+}
+.timeline-left:hover{
+    transform: skewY(10deg);
 }
 .timeline-right{
     width: 40%;
@@ -211,12 +223,17 @@
     background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgb(9, 121, 48) 0%, rgb(130, 224, 187) 100%);
     border-radius: 20px;
     height: 150px;
+    transition: 1s;
+}
+.timeline-right:hover{
+    transform: skewY(-10deg);
 }
 .prizes{
     display: flex;
     flex-direction: column;
     justify-content:center;
     background-color: black;
+   
 }
 .prizes h1{
     color: rgb(245, 239, 239);
@@ -228,6 +245,10 @@
     justify-content: center;
     gap: 100px;
     margin: 30px;
+    transition:1s
+}
+.prizes-side:hover{
+    transform: skewY(5deg);
 }
 .prizes img{
     width: 250px;
